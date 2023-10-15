@@ -14,7 +14,7 @@ class Car {
 
 
   //How to define and use a Class method.
-  class Car {
+  class Dog {
     constructor(name, year) {
       this.name = name;
       this.year = year;
@@ -26,6 +26,6 @@ class Car {
     }
   }
   
-  const myCar = new Car("Ford", 2014);
-  document.getElementById("demo").innerHTML =
-  "My car is " + myCar.age() + " years old.";
+  const myDog = new Dog("Bingo", 2015);
+  document.getElementById("demo1").innerHTML =
+  "My dog is " + myDog.age() + " years old.";
