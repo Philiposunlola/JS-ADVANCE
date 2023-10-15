@@ -1,3 +1,4 @@
+//When you have a class, you can use the class to create objects:
 class Car {
     constructor(name, year) {
       this.name = name;
@@ -10,7 +11,9 @@ class Car {
   
   document.getElementById("demo").innerHTML = myCar1.name + " " + myCar2.name;
 
-  class Car {
+
+  //How to define and use a Class method.
+  class Age {
     constructor(name, year) {
       this.name = name;
       this.year = year;
@@ -22,6 +25,6 @@ class Car {
     }
   }
   
-  const myCar = new Car("Ford", 2014);
+  const myAge = new Age("Philip", 20);
   document.getElementById("demo1").innerHTML =
-  "My car is " + myCar.age() + " years old.";
+  "I am " + myAge.age() + " years old.";
