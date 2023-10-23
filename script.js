@@ -26,6 +26,6 @@ class Car {
     }
   }
   
-  const myDog = new Dog("Bingo", 2018);
+  const myDog = new Dog("Eva", 2018);
   document.getElementById("demo1").innerHTML =
   "My dog is " + myDog.age() + " years old.";
