@@ -26,6 +26,6 @@ class Car {
     }
   }
   
-  const myDog = new Cat("Eva", 2018);
+  const my = new Cat("Eva", 2018);
   document.getElementById("demo1").innerHTML =
-  "My cat is " + myDog.age() + " years old.";
+  "My cat is " + myCat.age() + " years old.";
