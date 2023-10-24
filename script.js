@@ -26,6 +26,24 @@ class Car {
     }
   }
   
-  const myCat = new Cat("Eva", 2018);
+  const myCat = new Cat("Eva", 2005);
   document.getElementById("demo1").innerHTML =
   "My cat is " + myCat.age() + " years old.";
+
+  // Pass a parameter into the "age()" method.
+  class myDog {
+    constructor(name, year) {
+      this.name = name;
+      this.name = year;
+    }
+    age(x) {
+      return x - this.year;
+    }
+  }
+
+  const myDog = new Date();
+  let year = date.getFullYear();
+
+  const myDog = new Dog("Bingo", 2010);
+  document.getElementById("demo2").innerHTML=
+  ""
